@@ -6,7 +6,7 @@
         {
             "name": "MUN",
             "url": "https://github.com/JLMundorf",
-            "discord": "no shot"
+            "discord": "na"
         }
     ],
     "compatibility": {
@@ -24,8 +24,8 @@
                 "type": "system",
                 "manifest": "https://raw.githubusercontent.com/JLMundorf/FoundryThing/main/module.json",
                 "compatibility": {
-                    "minimum": "-5",
-                    "verified": "Never"
+                    "minimum": "2.0.0",
+                    "verified": "2.0.0"
                 }
             }
         ]
@@ -33,7 +33,7 @@
     "packs": [
         {
             "name": "Test-file",
-            "label": "Test File",
+            "label": "TestFile",
             "path": "test/test_file.db",
             "entity": "Actor",
             "type": "Actor",
