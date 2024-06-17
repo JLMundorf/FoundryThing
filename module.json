@@ -1,0 +1,43 @@
+{
+    "id": "Mundorf and Dragons",
+    "title": "Oh lawd",
+    "version": "0.0.0.1",
+    "authors": [
+        {
+            "name": "MUN",
+            "url": "https://github.com/JLMundorf",
+            "discord": "no shot"
+        }
+    ],
+    "compatibility": {
+            "minimum": "11",
+            "maximum": "11",
+            "verified": "11.315"
+    },
+    "styles": [
+        "css/styles.css"
+    ],
+    "relationships": {
+        "systems": [
+            {
+                "id": "dnd5e",
+                "type": "system",
+                "manifest": "https://raw.githubusercontent.com/JLMundorf/FoundryThing/main/module.json",
+                "compatibility": {
+                    "minimum": "-5",
+                    "verified": "Never"
+                }
+            }
+        ]
+    },
+    "packs": [
+        {
+            "name": "Test-file",
+            "label": "Test File",
+            "path": "test/test_file.db",
+            "entity": "Actor",
+            "type": "Actor",
+            "package": "FoundryThing"
+        }
+    ]
+}
