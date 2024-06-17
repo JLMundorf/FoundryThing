@@ -39,5 +39,10 @@
             "type": "Actor",
             "package": "FoundryThing"
         }
-    ]
+    ],
+    
+    "url": "https://github.com/JLMundorf/FoundryThing", 
+    "manifest": "https://raw.githubusercontent.com/JLMundorf/FoundryThing/main/module.json",
+    "download": "https://codeload.github.com/JLMundorf/FoundryThing/zip/main"
+
 }
